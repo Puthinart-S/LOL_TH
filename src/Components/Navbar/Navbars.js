@@ -10,15 +10,17 @@ const Navbars = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                        <Nav.Link href="/">หน้าแรก</Nav.Link>
+                        <Nav.Link href="#pricing">ข่าว</Nav.Link>
+                        <NavDropdown title="เกี่ยวกับเกม" id="collasible-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1">แชมป์เปี้ยน</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">ไอเทม</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">เริ่มต้นเล่น</NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link href="/">UNIVERSE</Nav.Link>
+                        <Nav.Link href="#pricing">ช่วยเหลือ</Nav.Link>
+                        <Nav.Link href="/">ลงทะเบียน/ดาวน์โหลด</Nav.Link>
+                        <Nav.Link href="#pricing">เติมเงิน</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
