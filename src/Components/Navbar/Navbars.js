@@ -14,13 +14,13 @@ const Navbars = () => {
                         <Nav.Link href="/news">ข่าว</Nav.Link>
                         <NavDropdown title="เกี่ยวกับเกม" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="/champions">แชมป์เปี้ยน</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">ไอเทม</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">เริ่มต้นเล่น</NavDropdown.Item>
+                            <NavDropdown.Item href="/items">ไอเทม</NavDropdown.Item>
+                            <NavDropdown.Item href="/tutorial">เริ่มต้นเล่น</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="/">UNIVERSE</Nav.Link>
-                        <Nav.Link href="#pricing">ช่วยเหลือ</Nav.Link>
-                        <Nav.Link href="/">ลงทะเบียน/ดาวน์โหลด</Nav.Link>
-                        <Nav.Link href="#pricing">เติมเงิน</Nav.Link>
+                        <Nav.Link href="https://universe.leagueoflegends.com/th_TH/" target="_blank" rel="noreferrer">UNIVERSE</Nav.Link>
+                        <Nav.Link href="https://support.garena.in.th/new/games/faqs/9/league-of-legends" target="_blank" rel="noreferrer">ช่วยเหลือ</Nav.Link>
+                        <Nav.Link href="/download">ลงทะเบียน/ดาวน์โหลด</Nav.Link>
+                        <Nav.Link href="https://termgame.com/app" target="_blank" rel="noreferrer">เติมเงิน</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
