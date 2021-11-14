@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import './style.css'
 import Footer from '../Footer/Footer'
 import bansec1 from './img/bansec1.jpg'
-import { Col, Container, Row } from 'react-bootstrap'
 import n1 from './img/n1.jpg'
 import n2 from './img/n2.jpg'
 import n3 from './img/n3.jpg'
@@ -15,6 +14,7 @@ import n9 from './img/n9.jpg'
 import cate1 from './img/Cate1.jpg'
 import cate2 from './img/Cate2.jpg'
 import cate3 from './img/Cate3.jpg'
+import { Link } from 'react-router-dom'
 
 const News = () => {
     return (
@@ -25,15 +25,15 @@ const News = () => {
             <section id="two" className="d-flex justify-content-center align-items-center p-5">
                 <div className="d-flex justify-content-center bg-light border-secondary w-25 m-5 p-3">
                     <div className="w-50 m-1">
-                        <img src={n7} alt="n7" className="img-fluid" style={{position: "relative", marginLeft: "-2.5vw", width: "10vw"}}/>
+                        <img src={n7} alt="n7" className="img-fluid" style={{ position: "relative", marginLeft: "-2.5vw", width: "10vw" }} />
                     </div>
                     <div className="w-50 m-1 p-2">
                         <h5 style={{ fontSize: 14 }}>Patch Notes 11.12</h5>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center bg-light border-secondary w-25 m-5 p-3">
+                <div className="d-flex justify-content-center bg-light border-secondary w-25 m-5 p-3" >
                     <div className="w-50 m-1">
-                        <img src={n5} alt="n5" className="img-fluid" style={{position: "relative", marginLeft: "-2.5vw", width: "10vw"}}/>
+                        <img src={n5} alt="n5" className="img-fluid" style={{ position: "relative", marginLeft: "-2.5vw", width: "10vw" }} />
                     </div>
                     <div className="w-50 m-1 p-2">
                         <h5 style={{ fontSize: 12 }} className="text-info">PROJECT: Irelia Prestige Edition</h5>
@@ -42,7 +42,7 @@ const News = () => {
                 </div>
                 <div className="d-flex justify-content-center bg-light border-secondary w-25 m-5 p-3">
                     <div className="w-50 m-1">
-                        <img src={n9} alt="n9" className="img-fluid" style={{position: "relative", marginLeft: "-2.5vw", width: "10vw"}}/>
+                        <img src={n9} alt="n9" className="img-fluid" style={{ position: "relative", marginLeft: "-2.5vw", width: "10vw" }} />
                     </div>
                     <div className="w-50 m-1 p-2">
                         <h5 style={{ fontSize: 14 }}>กิจกรรม ลิขิตแห่งมนตรา</h5>
@@ -51,7 +51,7 @@ const News = () => {
             </section>
             <section id="three" className="d-flex justify-content-center p-5">
                 <div className="d-flex flex-column justify-content-center align-items-center m-5">
-                    <div className="d-flex justify-content-center my-3 w-75">
+                    <Link to='news1' className="text-decoration-none text-dark"><div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n1} alt="n1" className="img-fluid w-75" />
                         </div>
@@ -60,7 +60,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">ทุกพื้นที่มีสมบัติ ทุกการค้นหามีโอกาสได้รับรางวัลใหญ่ ออกค้นหากันเลย!</p>
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/12 14:00</p>
                         </div>
-                    </div>
+                    </div> </Link>
                     <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n2} alt="n2" className="img-fluid w-75" />
@@ -97,7 +97,7 @@ const News = () => {
                             <img src={n5} alt="n5" className="img-fluid w-75" />
                         </div>
                         <div className="w-50 p-2">
-                        <p style={{ fontSize: 12 }} className="text-info">PROJECT: Irelia Prestige Edition</p>
+                            <p style={{ fontSize: 12 }} className="text-info">PROJECT: Irelia Prestige Edition</p>
                             <h5 style={{ fontSize: 18 }}>Teamfight Tactics: Innovator Tournament</h5>
                             <p style={{ fontSize: 12 }} className="text-secondary">ศึกชิงความเป็นสุดยอดนักประดิษฐ์ประจำ TFT Set 6: กลไกและสิ่งประดิษฐ์</p>
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/08 17:30</p>
@@ -128,7 +128,7 @@ const News = () => {
                             <img src={n8} alt="n8" className="img-fluid w-75" />
                         </div>
                         <div className="w-50 p-2">
-                        <p style={{ fontSize: 12 }} className="text-info">Set 6</p>
+                            <p style={{ fontSize: 12 }} className="text-info">Set 6</p>
                             <h5 style={{ fontSize: 18 }}>Teamfight Tactics patch 11.22 notes</h5>
                             <p style={{ fontSize: 12 }} className="text-secondary">ยินดีต้อนรับเข้าสู่ Teamfight Tactics: กลไกและสิ่งประดิษฐ์ โลกแห่งการทดลอง เวทมนตร์ และเทคโนโลยีที่จะเปลี่ยนยุคสมัย</p>
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/03 12:00</p>
@@ -145,7 +145,7 @@ const News = () => {
                         </div>
                     </div>
                 </div>
-                <div id="verti" style={{height: "125vw" }}></div>
+                <div id="verti" style={{ height: "125vw" }}></div>
                 <div className="d-flex flex-column m-5">
                     <div className="d-flex flex-column" >
                         <div id="cont" className="my-2">
