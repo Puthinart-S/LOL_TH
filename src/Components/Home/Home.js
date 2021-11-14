@@ -4,10 +4,10 @@ import ban1 from './img/Banner1.jpg'
 import ban2 from './img/Banner2.jpg'
 import ban3 from './img/Banner3.jpg'
 import n2 from './img/n1.jpg'
-import n3 from './img/n2.jpg'
+import n5 from './img/n2.jpg'
 import n1 from './img/n3.jpg'
-import n5 from './img/n4.jpg'
-import n4 from './img/n5.jpg'
+import n4 from './img/n4.jpg'
+import n3 from './img/n5.jpg'
 import n6 from './img/n6.jpg'
 import Footer from '../Footer/Footer'
 
@@ -49,10 +49,12 @@ const Home = () => {
                             <Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n1} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                    <Card.Title style={{ fontSize: 18 }}>กิจกรรม หุบเขาจักรกล</Card.Title>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        ทุกพื้นที่มีสมบัติ ทุกการค้นหามีโอกาสได้รับรางวัลใหญ่ ออกค้นหากันเลย!
+                                    </Card.Text>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        2021/11/12 14:00
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -61,10 +63,12 @@ const Home = () => {
                             <Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n2} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                    <Card.Title style={{ fontSize: 18 }}>กิจกรรม เอ้ก E เอ้ก</Card.Title>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        ยิ่งซื้อมากยิ่งคุ้มมาก ทั้งไข่และสกินใหม่
+                                    </Card.Text>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        2021/11/09 15:00
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -73,10 +77,12 @@ const Home = () => {
                             <Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n3} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                    <Card.Title style={{ fontSize: 18 }}>สู่หอจดหมายเหตุสภา</Card.Title>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        ท่องไปตามกองเอกสารในหอจดหมายเหตุสภา สำรวจประวัติศาสตร์แห่ง Piltover และอีกมากมาย
+                                    </Card.Text>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        2021/11/08 23:00
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -87,10 +93,15 @@ const Home = () => {
                             <Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n4} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                    <Card.Text style={{ fontSize: 12 }} className="text-info">
+                                        Tournament
+                                    </Card.Text>
+                                    <Card.Title style={{ fontSize: 18 }}>Teamfight Tactics: Innovator Tournament</Card.Title>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        ศึกชิงความเป็นสุดยอดนักประดิษฐ์ประจำ TFT Set 6: กลไกและสิ่งประดิษฐ์
+                                    </Card.Text>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        2021/11/08 17:30
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -99,10 +110,15 @@ const Home = () => {
                             <Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n5} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                    <Card.Text style={{ fontSize: 12 }} className="text-info">
+                                        PROJECT: Irelia Prestige Edition
+                                    </Card.Text>
+                                    <Card.Title style={{ fontSize: 18 }}>Teamfight Tactics: Innovator Tournament</Card.Title>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        ศึกชิงความเป็นสุดยอดนักประดิษฐ์ประจำ TFT Set 6: กลไกและสิ่งประดิษฐ์
+                                    </Card.Text>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        2021/11/08 17:30
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -111,10 +127,12 @@ const Home = () => {
                             <Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n6} />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                    <Card.Title style={{ fontSize: 18 }}>ความคิดเห็นจากทีมพัฒนา: 6 พฤศจิกายน 2564</Card.Title>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        ความคิดเห็นจากทีมพัฒนา: 6 พฤศจิกายน 2564
+                                    </Card.Text>
+                                    <Card.Text style={{ fontSize: 12 }} className="text-secondary">
+                                        2021/11/05 11:00
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -122,7 +140,7 @@ const Home = () => {
                     </Row>
                 </Container>
             </section>
-           <Footer/>
+            <Footer />
         </Fragment>
     )
 }

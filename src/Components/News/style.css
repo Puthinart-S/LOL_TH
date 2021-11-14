@@ -1,0 +1,48 @@
+#one {
+    background-image: url('./img/bgsec1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#two {
+    background-image: url('./img//bgnews.jpg');
+    background-size: auto;
+    background-position: center;
+}
+
+#cont {
+    position: relative;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-75%, -125%);
+}
+
+#text2 {
+    position: absolute;
+    top: 50%;
+    left: 22.5%;
+    transform: translate(-75%, -125%);
+}
+
+  #text3 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-75%, -125%);
+}
+
+#imag {
+    width: 15vw;
+}
+
+#verti {
+    width: 0px; /* Use only border style */
+    height: 100%;
+    float: left; 
+    border: 1px inset;
+  }

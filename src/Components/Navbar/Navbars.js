@@ -11,7 +11,7 @@ const Navbars = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/">หน้าแรก</Nav.Link>
-                        <Nav.Link href="#pricing">ข่าว</Nav.Link>
+                        <Nav.Link href="/news">ข่าว</Nav.Link>
                         <NavDropdown title="เกี่ยวกับเกม" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">แชมป์เปี้ยน</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">ไอเทม</NavDropdown.Item>

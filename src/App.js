@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbars = lazy(() => import('./Components/Navbar/Navbars'));
 const Home = lazy(() => import('./Components/Home/Home'));
+const News = lazy(() => import('./Components/News/News'));
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Navbars/>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/news" element={<News />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
