@@ -25,7 +25,7 @@ const News = () => {
             <section id="two" className="d-flex justify-content-center align-items-center p-5">
                 <div className="d-flex justify-content-center bg-light border-secondary w-25 m-5 p-3">
                     <div className="w-50 m-1">
-                        <img src={n7} alt="n7" className="img-fluid" />
+                        <img src={n7} alt="n7" className="img-fluid" style={{position: "relative", marginLeft: "-2.5vw", width: "10vw"}}/>
                     </div>
                     <div className="w-50 m-1 p-2">
                         <h5 style={{ fontSize: 14 }}>Patch Notes 11.12</h5>
@@ -33,7 +33,7 @@ const News = () => {
                 </div>
                 <div className="d-flex justify-content-center bg-light border-secondary w-25 m-5 p-3">
                     <div className="w-50 m-1">
-                        <img src={n8} alt="n8" className="img-fluid" />
+                        <img src={n5} alt="n5" className="img-fluid" style={{position: "relative", marginLeft: "-2.5vw", width: "10vw"}}/>
                     </div>
                     <div className="w-50 m-1 p-2">
                         <h5 style={{ fontSize: 12 }} className="text-info">PROJECT: Irelia Prestige Edition</h5>
@@ -42,7 +42,7 @@ const News = () => {
                 </div>
                 <div className="d-flex justify-content-center bg-light border-secondary w-25 m-5 p-3">
                     <div className="w-50 m-1">
-                        <img src={n9} alt="n9" className="img-fluid" />
+                        <img src={n9} alt="n9" className="img-fluid" style={{position: "relative", marginLeft: "-2.5vw", width: "10vw"}}/>
                     </div>
                     <div className="w-50 m-1 p-2">
                         <h5 style={{ fontSize: 14 }}>กิจกรรม ลิขิตแห่งมนตรา</h5>
