@@ -51,7 +51,7 @@ const News = () => {
             </section>
             <section id="three" className="d-flex justify-content-center p-5">
                 <div className="d-flex flex-column justify-content-center align-items-center m-5">
-                    <div className="d-flex justify-content-center my-3 w-100">
+                    <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n1} alt="n1" className="img-fluid w-75" />
                         </div>
@@ -61,7 +61,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/12 14:00</p>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center my-3 w-100">
+                    <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n2} alt="n2" className="img-fluid w-75" />
                         </div>
@@ -71,7 +71,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/09 15:00</p>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center my-3 w-100">
+                    <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n3} alt="n3" className="img-fluid w-75" />
                         </div>
@@ -81,7 +81,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/08 23:00</p>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center my-3 w-100">
+                    <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n4} alt="n4" className="img-fluid w-75" />
                         </div>
@@ -92,7 +92,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/08 17:30</p>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center my-3 w-100">
+                    <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n5} alt="n5" className="img-fluid w-75" />
                         </div>
@@ -103,7 +103,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/08 17:30</p>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center my-3 w-100">
+                    <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n6} alt="n6" className="img-fluid w-75" />
                         </div>
@@ -113,7 +113,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/05 11:00</p>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center my-3 w-100">
+                    <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n7} alt="n7" className="img-fluid w-75" />
                         </div>
@@ -123,7 +123,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/03 15:00</p>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center my-3 w-100">
+                    <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n8} alt="n8" className="img-fluid w-75" />
                         </div>
@@ -134,7 +134,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/03 12:00</p>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center my-3 w-100">
+                    <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n9} alt="n9" className="img-fluid w-75" />
                         </div>
@@ -145,7 +145,7 @@ const News = () => {
                         </div>
                     </div>
                 </div>
-                <div id="verti" style={{height: "175vw" }}></div>
+                <div id="verti" style={{height: "125vw" }}></div>
                 <div className="d-flex flex-column m-5">
                     <div className="d-flex flex-column" >
                         <div id="cont" className="my-2">
