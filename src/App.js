@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Navbars = lazy(() => import('./Components/Navbar/Navbars'));
 const Home = lazy(() => import('./Components/Home/Home'));
 const News = lazy(() => import('./Components/News/News'));
+const Champions = lazy(() => import('./Components/Champions/Champions'));
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/news" element={<News />} />
+          <Route path="/champions" element={<Champions />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

@@ -1,0 +1,10 @@
+#con {
+    position: relative;
+}
+
+#txt {
+    position: absolute;
+    top: 100%;
+    left: 18.90%;
+    transform: translate(-25.25%, -100%);
+}

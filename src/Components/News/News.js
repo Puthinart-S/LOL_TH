@@ -15,8 +15,6 @@ import n9 from './img/n9.jpg'
 import cate1 from './img/Cate1.jpg'
 import cate2 from './img/Cate2.jpg'
 import cate3 from './img/Cate3.jpg'
-import { Link } from 'react-router-dom'
-
 
 const News = () => {
     return (
