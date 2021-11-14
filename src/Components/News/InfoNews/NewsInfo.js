@@ -18,7 +18,7 @@ const NewsInfo = () => {
                 <div className="d-flex flex-column justify-content-start" style={{ width: "60vw" }}>
                     <p className="text-success" style={{ fontSize: 12 }}>ระยะเวลา</p>
                     <p style={{ fontSize: 12 }}>วันศุกร์ที่ 12 พฤศจิกายน 2564 - วันพฤหัสบดีที่ 18 พฤศจิกายน 2564 เวลา 23.59 น.</p>
-                    <p className="text-success" style={{ fontSize: 12 }}>เข้าร่วมกิจกรรมได้ผ่านทางตัวเกม &gt;&gt; หน้าแรก &gt;&gt; Overview >> หุบเขาจักรกล</p>
+                    <p className="text-success" style={{ fontSize: 12 }}>เข้าร่วมกิจกรรมได้ผ่านทางตัวเกม &gt;&gt; หน้าแรก &gt;&gt; Overview &gt;&gt; หุบเขาจักรกล</p>
                     <p className="text-success" style={{ fontSize: 12 }}>วิธีใช้งาน</p>
                     <p style={{ fontSize: 12 }}>
                         1. เลือกรางวัลใหญ่ 4 ชิ้น ตามปรารถนา <br />

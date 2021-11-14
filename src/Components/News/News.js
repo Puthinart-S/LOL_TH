@@ -50,7 +50,7 @@ const News = () => {
                 </div>
             </section>
             <section id="three" className="d-flex justify-content-center p-5">
-                <div className="d-flex flex-column justify-content-center align-items-center m-5">
+                <div className="d-flex flex-column justify-content-center w-50">
                     <Link to='/infonews1' className="text-decoration-none text-dark"><div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n1} alt="n1" className="img-fluid w-75" />
@@ -61,7 +61,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/12 14:00</p>
                         </div>
                     </div> </Link>
-                    <div className="d-flex justify-content-center my-3 w-75">
+                    <Link to='/infonews2' className="text-decoration-none text-dark"><div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n2} alt="n2" className="img-fluid w-75" />
                         </div>
@@ -70,7 +70,7 @@ const News = () => {
                             <p style={{ fontSize: 12 }} className="text-secondary">ยิ่งซื้อมากยิ่งคุ้มมาก ทั้งไข่และสกินใหม่</p>
                             <p style={{ fontSize: 12 }} className="text-secondary">2021/11/09 15:00</p>
                         </div>
-                    </div>
+                    </div> </Link>
                     <div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n3} alt="n3" className="img-fluid w-75" />
@@ -145,8 +145,8 @@ const News = () => {
                         </div>
                     </div>
                 </div>
-                <div id="verti" style={{ height: "125vw" }}></div>
-                <div className="d-flex flex-column m-5">
+                <div id="verti" style={{ height: "100vw" }}></div>
+                <div className="d-flex flex-column m-5" style={{ position: "relative", top: "-2.5vw" }}>
                     <div className="d-flex flex-column" >
                         <div id="cont" className="my-2">
                             <img src={cate1} alt="cate" id="imag" />

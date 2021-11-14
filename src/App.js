@@ -10,7 +10,8 @@ const Champions = lazy(() => import('./Components/Champions/Champions'));
 const Items = lazy(() => import('./Components/Items/Items'));
 const Tutorial = lazy(() => import('./Components/Tutorial/Tutorial'));
 const Download = lazy(() => import('./Components/Download/Download'));
-const NewsInfo = lazy(() => import('./Components/News/InfoNews/NewsInfo'))
+const NewsInfo = lazy(() => import('./Components/News/InfoNews/NewsInfo'));
+const NewsInfo2 = lazy(() => import('./Components/News/InfoNews/NewsInfo2'));
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/news" element={<News />} />
           <Route path="/infonews1" element={<NewsInfo />}/>
+          <Route path="/infonews2" element={<NewsInfo2 />}/>
           <Route path="/champions" element={<Champions />} />
           <Route path="/items" element={<Items />} />
           <Route path="/tutorial" element={<Tutorial />} />
