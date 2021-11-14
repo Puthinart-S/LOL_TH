@@ -51,7 +51,7 @@ const News = () => {
             </section>
             <section id="three" className="d-flex justify-content-center p-5">
                 <div className="d-flex flex-column justify-content-center align-items-center m-5">
-                    <Link to='news1' className="text-decoration-none text-dark"><div className="d-flex justify-content-center my-3 w-75">
+                    <Link to='/infonews1' className="text-decoration-none text-dark"><div className="d-flex justify-content-center my-3 w-75">
                         <div className="w-50">
                             <img src={n1} alt="n1" className="img-fluid w-75" />
                         </div>
