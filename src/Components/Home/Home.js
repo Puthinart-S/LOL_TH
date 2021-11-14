@@ -10,6 +10,7 @@ import n4 from './img/n4.jpg'
 import n3 from './img/n5.jpg'
 import n6 from './img/n6.jpg'
 import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom'
 
 
 import './style.css'
@@ -46,7 +47,7 @@ const Home = () => {
                 <Container className="d-grid justify-content-center align-items-center">
                     <Row>
                         <Col>
-                            <Card style={{ width: '15.5rem', border: '0px solid black' }}>
+                            <Link to='/news/infonews1' className="text-decoration-none text-dark"><Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n1} />
                                 <Card.Body>
                                     <Card.Title style={{ fontSize: 18 }}>กิจกรรม หุบเขาจักรกล</Card.Title>
@@ -57,10 +58,10 @@ const Home = () => {
                                         2021/11/12 14:00
                                     </Card.Text>
                                 </Card.Body>
-                            </Card>
+                            </Card> </Link>
                         </Col>
                         <Col>
-                            <Card style={{ width: '15.5rem', border: '0px solid black' }}>
+                            <Link to='/news/infonews2' className="text-decoration-none text-dark"><Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n2} />
                                 <Card.Body>
                                     <Card.Title style={{ fontSize: 18 }}>กิจกรรม เอ้ก E เอ้ก</Card.Title>
@@ -71,7 +72,7 @@ const Home = () => {
                                         2021/11/09 15:00
                                     </Card.Text>
                                 </Card.Body>
-                            </Card>
+                            </Card></Link>
                         </Col>
                         <Col>
                             <Card style={{ width: '15.5rem', border: '0px solid black' }}>
