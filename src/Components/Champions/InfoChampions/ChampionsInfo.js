@@ -38,7 +38,7 @@ const ChampionsInfo = () => {
                     </div>
                 </div>
             </section>
-            <section id="two" className="d-flex justify-content-center align-items-center bg-dark">
+            <section id="two" className="d-flex justify-content-center align-items-center bg-black">
                 <div className="d-flex justify-content-center align-items-center container m-4">
                     <div className="d-flex flex-column justify-content-center align-items-start w-50">
                         <div className="d-flex">
