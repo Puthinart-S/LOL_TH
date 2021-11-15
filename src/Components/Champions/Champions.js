@@ -7,6 +7,8 @@ import c2 from './img/Katarina_0.jpg'
 import c3 from './img/Vayne_0.jpg'
 import c4 from './img/Yasuo_0.jpg'
 import c5 from './img/Zed_0.jpg'
+import { Link } from 'react-router-dom'
+
 
 const Champions = () => {
     return (
@@ -15,10 +17,10 @@ const Champions = () => {
                 <img src={bgsec1} alt="ban"  className="img-fluid"/>
             </section>
             <section id="two" className="d-flex justify-content-center align-items-center p-5">
-                <div id="con">
+                <Link to="jhin"><div id="con">
                     <img  src={c1} alt="c1" className="w-75"/>
                     <div id="txt" className="text-decoration-none text-light bg-dark px-3" style={{ fontSize: 22, width: "12.20vw" }}>Jhin</div>
-                </div>
+                </div></Link>
                 <div id="con">
                     <img  src={c2} alt="c2" className="w-75"/>
                     <div id="txt" className="text-decoration-none text-light bg-dark px-3" style={{ fontSize: 22, width: "12.20vw" }}>Katarina</div>
