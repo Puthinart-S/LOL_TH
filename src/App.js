@@ -13,6 +13,13 @@ const Download = lazy(() => import('./Components/Download/Download'));
 
 const NewsInfo = lazy(() => import('./Components/News/InfoNews/NewsInfo'));
 const NewsInfo2 = lazy(() => import('./Components/News/InfoNews/NewsInfo2'));
+const NewsInfo3 = lazy(() => import('./Components/News/InfoNews/NewsInfo3'));
+const NewsInfo4 = lazy(() => import('./Components/News/InfoNews/NewsInfo4'));
+const NewsInfo5 = lazy(() => import('./Components/News/InfoNews/NewsInfo5'));
+const NewsInfo6 = lazy(() => import('./Components/News/InfoNews/NewsInfo6'));
+const NewsInfo7 = lazy(() => import('./Components/News/InfoNews/NewsInfo7'));
+const NewsInfo8 = lazy(() => import('./Components/News/InfoNews/NewsInfo8'));
+const NewsInfo9 = lazy(() => import('./Components/News/InfoNews/NewsInfo9'));
 
 const ChampionsInfo = lazy(() => import('./Components/Champions/InfoChampions/ChampionsInfo'));
 
@@ -26,6 +33,13 @@ const App = () => {
           <Route path="/news" element={<News />} />
           <Route path="/news/infonews1" element={<NewsInfo />} />
           <Route path="/news/infonews2" element={<NewsInfo2 />} />
+          <Route path="/news/infonews3" element={<NewsInfo3 />} />
+          <Route path="/news/infonews4" element={<NewsInfo4 />} />
+          <Route path="/news/infonews5" element={<NewsInfo5 />} />
+          <Route path="/news/infonews6" element={<NewsInfo6 />} />
+          <Route path="/news/infonews7" element={<NewsInfo7 />} />
+          <Route path="/news/infonews8" element={<NewsInfo8 />} />
+          <Route path="/news/infonews9" element={<NewsInfo9 />} />
           <Route path="/champions" element={<Champions />} />
           <Route path="/champions/jhin" element={<ChampionsInfo />} />
           <Route path="/items" element={<Items />} />

@@ -21,25 +21,25 @@ const Home = () => {
             <section id="one" className="d-flex justify-content-center align-items-center p-5">
                 <Carousel slide fade touch controls={false} pause="hover" className="w-75">
                     <Carousel.Item>
-                        <img
+                        <Link to="/news/infonews7"><img
                             className="d-block w-100"
                             src={ban1}
                             alt="First slide"
-                        />
+                        /></Link>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
+                        <Link to="/news/infonews8"><img
                             className="d-block w-100"
                             src={ban2}
                             alt="Second slide"
-                        />
+                        /></Link>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
+                        <Link to="/news/infonews9"><img
                             className="d-block w-100"
                             src={ban3}
                             alt="Third slide"
-                        />
+                        /></Link>
                     </Carousel.Item>
                 </Carousel>
             </section>
@@ -75,7 +75,7 @@ const Home = () => {
                             </Card></Link>
                         </Col>
                         <Col>
-                            <Card style={{ width: '15.5rem', border: '0px solid black' }}>
+                            <Link to='/news/infonews3' className="text-decoration-none text-dark"><Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n3} />
                                 <Card.Body>
                                     <Card.Title style={{ fontSize: 18 }}>สู่หอจดหมายเหตุสภา</Card.Title>
@@ -86,12 +86,12 @@ const Home = () => {
                                         2021/11/08 23:00
                                     </Card.Text>
                                 </Card.Body>
-                            </Card>
+                            </Card></Link>
                         </Col>
                     </Row>
                     <Row >
                         <Col>
-                            <Card style={{ width: '15.5rem', border: '0px solid black' }}>
+                            <Link to='/news/infonews4' className="text-decoration-none text-dark"><Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n4} />
                                 <Card.Body>
                                     <Card.Text style={{ fontSize: 12 }} className="text-info">
@@ -105,10 +105,10 @@ const Home = () => {
                                         2021/11/08 17:30
                                     </Card.Text>
                                 </Card.Body>
-                            </Card>
+                            </Card></Link>
                         </Col>
                         <Col>
-                            <Card style={{ width: '15.5rem', border: '0px solid black' }}>
+                            <Link to='/news/infonews5' className="text-decoration-none text-dark"><Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n5} />
                                 <Card.Body>
                                     <Card.Text style={{ fontSize: 12 }} className="text-info">
@@ -122,10 +122,10 @@ const Home = () => {
                                         2021/11/08 17:30
                                     </Card.Text>
                                 </Card.Body>
-                            </Card>
+                            </Card></Link>
                         </Col>
                         <Col>
-                            <Card style={{ width: '15.5rem', border: '0px solid black' }}>
+                            <Link to='/news/infonews6' className="text-decoration-none text-dark"><Card style={{ width: '15.5rem', border: '0px solid black' }}>
                                 <Card.Img variant="top" src={n6} />
                                 <Card.Body>
                                     <Card.Title style={{ fontSize: 18 }}>ความคิดเห็นจากทีมพัฒนา: 6 พฤศจิกายน 2564</Card.Title>
@@ -136,7 +136,7 @@ const Home = () => {
                                         2021/11/05 11:00
                                     </Card.Text>
                                 </Card.Body>
-                            </Card>
+                            </Card></Link>
                         </Col>
                     </Row>
                 </Container>
