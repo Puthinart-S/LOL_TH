@@ -22,6 +22,10 @@ const NewsInfo8 = lazy(() => import('./Components/News/InfoNews/NewsInfo8'));
 const NewsInfo9 = lazy(() => import('./Components/News/InfoNews/NewsInfo9'));
 
 const ChampionsInfo = lazy(() => import('./Components/Champions/InfoChampions/ChampionsInfo'));
+const ChampionsInfo2 = lazy(() => import('./Components/Champions/InfoChampions/ChampionsInfo2'));
+const ChampionsInfo3 = lazy(() => import('./Components/Champions/InfoChampions/ChampionsInfo3'));
+const ChampionsInfo4 = lazy(() => import('./Components/Champions/InfoChampions/ChampionsInfo4'));
+const ChampionsInfo5 = lazy(() => import('./Components/Champions/InfoChampions/ChampionsInfo5'));
 
 const App = () => {
   return (
@@ -42,6 +46,10 @@ const App = () => {
           <Route path="/news/infonews9" element={<NewsInfo9 />} />
           <Route path="/champions" element={<Champions />} />
           <Route path="/champions/jhin" element={<ChampionsInfo />} />
+          <Route path="/champions/katarina" element={<ChampionsInfo2 />} />
+          <Route path="/champions/vayne" element={<ChampionsInfo3 />} />
+          <Route path="/champions/yasuo" element={<ChampionsInfo4 />} />
+          <Route path="/champions/zed" element={<ChampionsInfo5 />} />
           <Route path="/items" element={<Items />} />
           <Route path="/tutorial" element={<Tutorial />} />
           <Route path="/download" element={<Download />} />
