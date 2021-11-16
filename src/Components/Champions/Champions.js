@@ -21,22 +21,22 @@ const Champions = () => {
                     <img  src={c1} alt="c1" className="w-75"/>
                     <div id="txt" className="text-decoration-none text-light bg-dark px-3" style={{ fontSize: 22, width: "12.20vw" }}>Jhin</div>
                 </div></Link>
-                <div id="con">
+                <Link to="katarina"><div id="con">
                     <img  src={c2} alt="c2" className="w-75"/>
                     <div id="txt" className="text-decoration-none text-light bg-dark px-3" style={{ fontSize: 22, width: "12.20vw" }}>Katarina</div>
-                </div>
-                <div id="con">
+                </div></Link>
+                <Link to="vayne"><div id="con">
                     <img  src={c3} alt="c3" className="w-75"/>
                     <div id="txt" className="text-decoration-none text-light bg-dark px-3" style={{ fontSize: 22, width: "12.20vw" }}>Vayne</div>
-                </div>
-                <div id="con">
+                </div></Link>
+                <Link to="yasuo"><div id="con">
                     <img  src={c4} alt="c4" className="w-75"/>
                     <div id="txt" className="text-decoration-none text-light bg-dark px-3" style={{ fontSize: 22, width: "12.20vw" }}>Yasuo</div>
-                </div>
-                <div id="con">
+                </div></Link>
+                <Link to="zed"><div id="con">
                     <img  src={c5} alt="c5" className="w-75"/>
                     <div id="txt" className="text-decoration-none text-light bg-dark px-3" style={{ fontSize: 22, width: "12.20vw" }}>Zed</div>
-                </div>
+                </div></Link>
             </section>
             <Footer/>
         </Fragment>

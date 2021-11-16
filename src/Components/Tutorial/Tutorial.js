@@ -9,8 +9,6 @@ import bg5 from './img/bg5.png'
 import bg6 from './img/bg6.png'
 import bg7 from './img/bg7.png'
 import gamemap from './img/map-lg.png'
-import nex from './img/blue_nexus.jpg'
-import nex2 from './img/red_nexus.jpg'
 
 import bg8 from './img/skillBg-1.jpg'
 import bg9 from './img/skillBg-2.png'
