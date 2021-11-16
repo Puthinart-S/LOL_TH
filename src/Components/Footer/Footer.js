@@ -10,7 +10,7 @@ import { FiList } from 'react-icons/fi'
 const Footer = () => {
     return (
         <Fragment>
-            <footer className="d-flex justify-content-center align-items-center bg-dark">
+            <footer className="d-flex justify-content-center align-items-center bg-dark" style={{minHeight: "50px", marginTop: "auto"}}>
                 <Container className="d-flex flex-column justify-content-center align-items-center p-5">
                     <Row>
                         <Col>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <br />
                     <Row>
                         <Col>
-                            <pp className="text-light text-center" style={{ fontSize: 12 }}>Copyright © Garena Online. Trademarks belong to their respective owners. All Rights Reserved. Copyright © Riot Games, Inc. "Riot Games" and "League of Legends" are </pp>
+                            <p className="text-light text-center" style={{ fontSize: 12 }}>Copyright © Garena Online. Trademarks belong to their respective owners. All Rights Reserved. Copyright © Riot Games, Inc. "Riot Games" and "League of Legends" are </p>
                             <p className="text-light text-center" style={{ fontSize: 12 }}>trademarks,service marks and/or registered trademarks throughout the world. All rights reserved.</p>
                         </Col>
                     </Row>

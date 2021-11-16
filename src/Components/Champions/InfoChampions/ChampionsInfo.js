@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState, useEffect } from 'react'
 import Footer from '../../Footer/Footer'
 import './style.css'
 import { BsCaretRight, BsCaretRightFill } from "react-icons/bs";
@@ -10,6 +10,48 @@ import s3 from './img1/JhinE.png'
 import s4 from './img1/JhinR.png'
 
 const ChampionsInfo = () => {
+    const [skill, setSkill] = useState("0");
+
+    const spa = (e) => {
+        e.preventDefault();
+        setSkill("0");
+    }
+    useEffect(() => {
+        setSkill(skill);
+    }, [skill])
+
+    const sq = (e) => {
+        e.preventDefault();
+        setSkill("1");
+    }
+    useEffect(() => {
+        setSkill(skill);
+    }, [skill])
+
+    const sw = (e) => {
+        e.preventDefault();
+        setSkill("2");
+    }
+    useEffect(() => {
+        setSkill(skill);
+    }, [skill])
+
+    const se = (e) => {
+        e.preventDefault();
+        setSkill("3");
+    }
+    useEffect(() => {
+        setSkill(skill);
+    }, [skill])
+
+    const sr = (e) => {
+        e.preventDefault();
+        setSkill("4");
+    }
+    useEffect(() => {
+        setSkill(skill);
+    }, [skill])
+
     return (
         <Fragment>
             <section id="one" className="d-flex justify-content-center align-items-center">
@@ -45,22 +87,84 @@ const ChampionsInfo = () => {
                             <h1 className="text-light">แนะนำสกิล</h1><br />
                         </div>
                         <div className="d-flex justify-content-around align-items-center m-5">
-                            <img src={sp} alt="sp" className="img-fluid mx-3" />
-                            <img src={s1} alt="s1" className="img-fluid mx-3" />
-                            <img src={s2} alt="s2" className="img-fluid mx-3" />
-                            <img src={s3} alt="s3" className="img-fluid mx-3" />
-                            <img src={s4} alt="s4" className="img-fluid mx-3" />
+                            <img src={sp} alt="sp" className="img-fluid mx-3" onClick={spa} />
+                            <img src={s1} alt="s1" className="img-fluid mx-3" onClick={sq} />
+                            <img src={s2} alt="s2" className="img-fluid mx-3" onClick={sw} />
+                            <img src={s3} alt="s3" className="img-fluid mx-3" onClick={se} />
+                            <img src={s4} alt="s4" className="img-fluid mx-3" onClick={sr} />
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-start w-75">
-                            <p className="text-info" style={{ fontSize: 10 }}>สกิลติดตัว</p>
-                            <h5 className="text-light" style={{ fontSize: 16 }}>Whisper</h5>
-                            <p className="text-light" style={{ fontSize: 10 }}>ปืนของ Jhin ที่มีนามว่า Whisper เป็นอุปกรณ์ละเอียดอ่อนที่ถูกออกแบบมาให้สร้างความเสียหายอย่างมหาศาล มันจะสามารถยิงได้ในอัตราความเร็วการยิงเท่าเดิมตามที่กำหนดไว้ และสามารถยิงติดกันได้เพียง 4 นัด Jhin ได้อัดมนต์ดำลงในกระสุนนัดสุดท้ายที่จะติดคริติคอลอย่างแน่นอน และสร้างโบนัสความเสียหายอย่างรุนแรง เมื่อใดก็ตามที่ Whisper คริติคอล มันจะส่งผลให้ Jhin ได้รับความเร็วเคลื่อนที่เพิ่มขึ้นมหาศาลชั่วครู่</p>
+                            {skill === "0" ?
+                                <>
+                                    <p className="text-info" style={{ fontSize: 10 }}>สกิลติดตัว</p>
+                                    <h5 className="text-light" style={{ fontSize: 16 }}>Whisper</h5>
+                                    <p className="text-light" style={{ fontSize: 10 }}>ปืนของ Jhin ที่มีนามว่า Whisper เป็นอุปกรณ์ละเอียดอ่อนที่ถูกออกแบบมาให้สร้างความเสียหายอย่างมหาศาล มันจะสามารถยิงได้ในอัตราความเร็วการยิงเท่าเดิมตามที่กำหนดไว้ และสามารถยิงติดกันได้เพียง 4 นัด Jhin ได้อัดมนต์ดำลงในกระสุนนัดสุดท้ายที่จะติดคริติคอลอย่างแน่นอน และสร้างโบนัสความเสียหายอย่างรุนแรง เมื่อใดก็ตามที่ Whisper คริติคอล มันจะส่งผลให้ Jhin ได้รับความเร็วเคลื่อนที่เพิ่มขึ้นมหาศาลชั่วครู่</p>
+                                </>
+                                : skill === "1" ?
+                                    <>
+                                        <p className="text-info" style={{ fontSize: 10 }}>Q</p>
+                                        <h5 className="text-light" style={{ fontSize: 16 }}>Dancing Grenade</h5>
+                                        <p className="text-light" style={{ fontSize: 10 }}>Jhin โยนปลอกกระสุนเวทมนตร์ใส่ศัตรู มันสามารถโดนศัตรูได้ 4 เป้าหมาย และความเสียหายจะเพิ่มขึ้นตามครั้งที่มันสังหารได้สำเร็จ</p>
+                                    </>
+                                    : skill === "2" ?
+                                        <>
+                                            <p className="text-info" style={{ fontSize: 10 }}>W</p>
+                                            <h5 className="text-light" style={{ fontSize: 16 }}>Deadly Flourish</h5>
+                                            <p className="text-light" style={{ fontSize: 10 }}>Jhin กวัดแกว่งไม้เท้า ยิงกระสุนออกไปจากระยะไกล มันสามารถทะลุผ่านมินเนี่ยนและสัตว์ป่าได้ แต่กระสุนจะหยุดเมื่อมันโดนแชมเปี้ยนตัวแรก ถ้าหากเป้าหมายพึ่งโดนเพื่อนร่วมทีมของ Jhin โจมตี หรือโดนกับดักดอกบัว หรือโดนการโจมตีปกติของ Jhin พวกมันจะถูกตรึง (Root)</p>
+                                        </>
+                                        : skill === "3" ?
+                                            <>
+                                                <p className="text-info" style={{ fontSize: 10 }}>E</p>
+                                                <h5 className="text-light" style={{ fontSize: 16 }}>Captive Audience</h5>
+                                                <p className="text-light" style={{ fontSize: 10 }}>Jhin วางกับดักดอกบัวที่อำพรางตัวได้ ที่จะบานขึ้นมาเมื่อเดินมาเหยียบมัน มันจะสโลว์ศัตรูรอบข้าง ก่อนที่จะระเบิดออกเป็นรูปกลีบดอกไม้สร้างความเสียหายแก่ศัตรู
+                                                    Beauty in Death - เมื่อ Jhin สังหารแชมเปี้ยนศัตรูได้สำเร็จ กับดักดอกบัวจะระเบิดออกมาใกล้ ๆ กับศพของพวกเขา</p>
+                                            </>
+                                            :
+                                            <>
+                                                <p className="text-info" style={{ fontSize: 10 }}>R</p>
+                                                <h5 className="text-light" style={{ fontSize: 16 }}>Curtain Call</h5>
+                                                <p className="text-light" style={{ fontSize: 10 }}>Jhin ตั้งท่า แล้วเปลี่ยน Whisper ให้กลายเป็นปืนใหญ่ติดบ่า มันสามารถยิงกระสุนได้ต่อเนื่อง 4 นัด ได้จากระยะอันแสนไกล ที่จะทะลุร่างมินเนี่ยนและสัตว์ป่า แต่จะหยุดเมื่อโดนแชมเปี้ยนคนแรก Whisper จะทำให้ศัตรูที่โดน ติดสโลว์พร้อมสร้างความเสียหายอย่างรุนแรง และกระสุนนัดที่ 4 ที่ถูกสร้างขึ้นมาอย่างสมบูรณ์แบบ จะทรงพลังอย่างไม่น่าเชื่อ และจะติดคริติคอลอย่างแน่นอน</p>
+                                            </>
+                            }
                         </div>
                     </div>
                     <div className="d-flex justify-content-center align-items-center">
-                        <iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_P1.mp4" title="show" style={{display: "block", width: "35vw", height: "35vh"}}>
-                        </iframe>
+                        {skill === "0" ?
+                            <>
+                                <video autoPlay="autoplay" muted style={{ display: "block", width: "35vw", height: "35vh" }}>
+                                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_P1.mp4" />
+                                </video>
+                            </>
+                            : skill === "1" ?
+                                <>
+                                    <video autoPlay="autoplay" muted style={{ display: "block", width: "35vw", height: "35vh" }}>
+                                        <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_Q1.mp4" />
+                                    </video>
+                                </>
+                                : skill === "2" ?
+                                    <>
+                                        <video autoPlay="autoplay" muted style={{ display: "block", width: "35vw", height: "35vh" }}>
+                                            <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_W1.mp4" />
+                                        </video>
+                                    </>
+                                    : skill === "3" ?
+                                        <>
+                                            <video autoPlay="autoplay" muted style={{ display: "block", width: "35vw", height: "35vh" }}>
+                                                <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_E1.mp4" />
+                                            </video>
+                                        </>
+                                        :
+                                        <>
+                                            <video autoPlay="autoplay" muted style={{ display: "block", width: "35vw", height: "35vh" }}>
+                                                <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0202/ability_0202_R1.mp4" />
+                                            </video>
+                                        </>
+                        }
                     </div>
+                </div>
+            </section>
+            <section id="three" className="d-flex justify-content-center align-items-center bg-black">
+                <div >
                 </div>
             </section>
             <Footer />
