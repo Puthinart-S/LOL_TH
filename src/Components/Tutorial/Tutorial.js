@@ -20,13 +20,15 @@ import sk4 from './img/skill-4.png'
 import sk5 from './img/skill-5.png'
 import sk6 from './img/skill-6.png'
 
+import './style.css'
+
 
 const Tutorial = () => {
 
     return (
         <Fragment>
             <section style={{ width: "100%", height: "100vh" }}>
-                <Parallax pages={5} style={{ top: '0', left: '0', width: "100%", height: "100vh", marginTop: "4.5vw", overflow: "auto" }}>
+                <Parallax pages={5} style={{ top: '0', left: '0', width: "100%", height: "100vh", marginTop: "4.5vw" }}>
                     <ParallaxLayer offset={0} speed={0}>
                         <ParallaxLayer offset={0} speed={0} style={{ opacity: 1.0 }}>
                             <img
